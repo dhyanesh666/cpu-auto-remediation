@@ -28,9 +28,7 @@ cpu-auto-remediation/
 └── scripts/
 └── spike_simulator.py # Generates artificial CPU spike inside container
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -67,9 +65,7 @@ cd cpu-auto-remediation
 # Install dependencies
 pip install -r requirements.txt
 🔄 Run the System
-bash
-Copy
-Edit
+
 # Start Prometheus (if not already running)
 ./prometheus --config.file=prometheus.yml &
 
