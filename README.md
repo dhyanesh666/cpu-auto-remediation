@@ -15,23 +15,6 @@ This project automatically detects CPU spikes inside a Docker container, analyze
 
 ---
 
-## 📁 Project Structure
-
-cpu-auto-remediation/
-│
-├── cpu_monitor.py # Continuously monitors CPU usage from Prometheus
-├── remediation.py # Restarts container and verifies CPU stability
-├── log_analysis.py # Collects logs and performs RCA using LLM
-├── notify.py # Sends email via AWS SNS
-├── README.md # Project documentation
-├── requirements.txt # Python dependencies
-└── scripts/
-└── spike_simulator.py # Generates artificial CPU spike inside container
-
-
-
----
-
 ## 🧪 How It Works
 
 1. `cpu_monitor.py` monitors container CPU via Prometheus API.
