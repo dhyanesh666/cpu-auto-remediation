@@ -1,7 +1,6 @@
 import subprocess
 import time
 from cpu_monitor import get_cpu_usage
-#from log_analysis import get_logs, analyze_logs
 from log_analysis import get_logs, analyze_logs
 import boto3
 
