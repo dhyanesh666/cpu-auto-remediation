@@ -22,7 +22,7 @@ This project automatically detects CPU spikes inside a Docker container, analyze
 3. `remediation.py`:
    - Restarts the container
    - Calls `log_analysis.py` to collect logs and analyze with LLM
-   - Calls `notify.py` to send RCA via email using AWS SNS
+   - Send RCA & notification via email using AWS SNS
 
 ---
 
