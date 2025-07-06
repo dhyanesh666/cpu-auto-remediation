@@ -1,7 +1,7 @@
 import requests
 
 OLLAMA_API_URL = "http://localhost:11434/api/generate"
-OLLAMA_MODEL = "tinyllama"  # or whatever model you've pulled
+OLLAMA_MODEL = "tinyllama" 
 
 def get_logs(container_name="my-test-container", line_limit=100):
     from subprocess import check_output, CalledProcessError
